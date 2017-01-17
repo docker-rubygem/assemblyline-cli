@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.0.8
+ENV VERSION=0.0.13
 
 RUN gem install assemblyline-cli --version ${VERSION} --no-format-exec
 
